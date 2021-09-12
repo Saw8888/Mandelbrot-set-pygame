@@ -52,7 +52,7 @@ for i in range(frames): #frames
     for iy in range(int(height / 2 + 1)):
         for ix in range(width):
             z = 0 + 0j
-            c = complex(float(ix - xaxis) / scale-1.6, float(iy - yaxis) / scale)
+            c = complex(float(ix - xaxis) / scale, float(iy - yaxis) / scale)
             x = c.real
             y = c.imag
             y2 = y * y
